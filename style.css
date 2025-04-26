@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #f0f0f0;
+}
+
+main {
+    padding-bottom: 500px;
+}
+
+main div {
+    color: #00ffcc;
+}
+
+header {
+    background-color: #1e2a38;
+    padding-bottom: 30px;
+}
+
+header h1 {
+    color: #33d9b2;
+    text-shadow: 2px 2px 4px #0fbcf9;
+    font-size: 48pt;
+    text-align: center;
+}
+
+.botoes,
+.botao2 {
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 11pt;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.botoes {
+    background-color: #3c40c6;
+    color: white;
+}
+
+.botoes:hover {
+    background-color: #575fcf;
+}
+
+.botao2 {
+    background-color: #0fbcf9;
+    color: white;
+}
+
+.botao2:hover {
+    background-color: #00a8ff;
+}
+
+#money {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 8%;
+    left: 90%;
+    text-align: center;
+}
+
+#money div {
+    margin-bottom: 10px;
+    font-size: 16pt;
+}
+
+#displayDep {
+    display: none;
+    background-color: #1e2a38;
+    padding: 15px;
+    padding-bottom: 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 29%;
+    left: 90%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#displayDep button {
+    padding: 5px;
+    width: 80px;
+    margin: 5px;
+    background-color: #00d8d6;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+#displayDep #row1,
+#displayDep #row2 {
+    display: flex;
+    gap: 10px;
+}
+
+#displayDep #confirm {
+    padding: 6px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 78%;
+    left: 49%;
+    background-color: #0fbcf9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+#displayDep p {
+    margin: 2px;
+}
+
+#tabuleiro {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 59%;
+    left: 50%;
+}
+
+#tabuleiro .tbrow {
+    filter: blur(3px);
+}
+
+.tbrow {
+    margin: 15px;
+    align-items: center;
+}
+
+.botaoJogo {
+    background-color: #34ace0;
+    box-shadow: 0px 4px 0px #227093;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.botaoJogo svg {
+    width: 100%;
+}
+
+svg {
+    width: 50px;
+    height: 50px;
+}
+
+section {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 20%;
+    text-align: center;
+}
+
+main section span {
+    text-align: right;
+}
+
+section div .botao2 {
+    padding: 5px;
+}
+
+section div {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+section div div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+section div div button {
+    margin: 2px;
+}
+
+#sect {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 75%;
+}
+
+.boxes {
+    background-color: #1e2a38;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    color: #f1f2f6;
+}
+
+#lucro p {
+    color: #10ac84;
+}
+
+#hits p {
+    color: #0fbcf9;
+}
+
+#inp {
+    padding: 6px;
+    background-color: #2c3e50;
+    border: 2px solid #34495e;
+    color: #ecf0f1;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#inp:focus,
+#inp:hover {
+    outline: none;
+    border-color: #00cec9;
+}
